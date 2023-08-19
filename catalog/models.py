@@ -22,14 +22,14 @@ class Category(models.Model):
 class Product(models.Model):
     product_name = models.CharField(max_length=100, verbose_name='название товара')
     product_description = models.TextField(verbose_name='описание', **NULLABLE)
-    product_image = models.ImageField(verbose_name='изображение', upload_to='products/', **NULLABLE)
-    product_category = models.ForeignKey(default=None, to=Category, on_delete=models.deletion.CASCADE, verbose_name='категория')
+    product_image = models.ImageField(verbose_name='изображение', upload_to='product/', **NULLABLE)
+    product_category = models.ForeignKey(Category, to_field='id', default=None, on_delete=models.deletion.CASCADE, verbose_name='категория')
     product_price = models.FloatField(verbose_name='цена за покупку')
     date_of_creation = models.DateField(verbose_name='дата создания', default=timezone.now)
     date_of_last_change = models.DateField(verbose_name='дата последнего изменения', default=timezone.now)
 
     def __str__(self):
-        return f'{self.product_name} {self.product_price}'
+        return f'{self.product_name}'
 
     class Meta:
         verbose_name = 'товар'

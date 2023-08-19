@@ -1,34 +1,26 @@
 [
-  {
-    "model": "catalog.category",
-    "pk": 1,
-    "fields": {
-      "category_name": "Dishes",
-      "category_description": ""
-    }
-  },
-  {
-    "model": "catalog.category",
-    "pk": 2,
-    "fields": {
-      "category_name": "Food",
-      "category_description": ""
-    }
-  },
-  {
-    "model": "catalog.category",
-    "pk": 3,
-    "fields": {
-      "category_name": "Furniture",
-      "category_description": ""
-    }
-  },
-  {
-    "model": "catalog.category",
-    "pk": 4,
-    "fields": {
-      "category_name": "Tools",
-      "category_description": "Tools for home"
-    }
+{
+  "model": "catalog.category",
+  "pk": 11,
+  "fields": {
+    "category_name": "Food",
+    "category_description": "Food for eating"
   }
+},
+{
+  "model": "catalog.category",
+  "pk": 12,
+  "fields": {
+    "category_name": "Dishes",
+    "category_description": "Dish for eating"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 13,
+  "fields": {
+    "category_name": "Tool",
+    "category_description": "Tool for work"
+  }
+}
 ]
