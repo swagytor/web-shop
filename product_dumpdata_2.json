@@ -1,0 +1,67 @@
+[
+{
+  "model": "catalog.product",
+  "pk": 18,
+  "fields": {
+    "product_name": "Hamburger",
+    "product_description": "Tasty hamburger\r\nCan't control myself...",
+    "product_image": "product/hamburger_3BOULNU.png",
+    "product_category_id": 11,
+    "product_price": 540.0,
+    "date_of_creation": "2023-08-19",
+    "date_of_last_change": "2023-08-19"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 19,
+  "fields": {
+    "product_name": "Hammer",
+    "product_description": "a tool used for driving nails and other metal elements. It has a comfortable handle and various shapes of the head.",
+    "product_image": "product/hammer_QIqZb79.png.png",
+    "product_category_id": 13,
+    "product_price": 200.0,
+    "date_of_creation": "2023-08-19",
+    "date_of_last_change": "2023-08-19"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 20,
+  "fields": {
+    "product_name": "Ladder",
+    "product_description": "a structure used for climbing to heights or accessing hard-to-reach areas. It has a sturdy construction and comfortable steps.",
+    "product_image": "",
+    "product_category_id": 13,
+    "product_price": 100.0,
+    "date_of_creation": "2023-08-19",
+    "date_of_last_change": "2023-08-19"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 21,
+  "fields": {
+    "product_name": "Fork",
+    "product_description": "-Fork\r\n-...\r\n-Fuck",
+    "product_image": "product/fork_QlJBmRh.png",
+    "product_category_id": 12,
+    "product_price": 69.0,
+    "date_of_creation": "2023-08-19",
+    "date_of_last_change": "2023-08-19"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 22,
+  "fields": {
+    "product_name": "Screwdriver",
+    "product_description": "an electric tool used for screwing and unscrewing screws and bolts. It has a high power output and a comfortable handle.",
+    "product_image": "product/screwdriver_YHLYD9T.png",
+    "product_category_id": 13,
+    "product_price": 2400.0,
+    "date_of_creation": "2023-08-19",
+    "date_of_last_change": "2023-08-19"
+  }
+}
+]

@@ -1,0 +1,24 @@
+{% extends 'catalog/base.html' %}
+{% load my_tags %}
+{% block content %}
+    <div class="row">
+        <div class="col-9">
+            <a href="{% url 'catalog:blogs' %}">Вернуться к блогам</a>
+            <h3>{{ object.title }}</h3>
+        </div>
+        <div class="col-3 text-right">
+            <a href="{% url 'catalog:blog_update' object.pk %}">Редактировать блог</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <p>{{ object.body }}</p>
+            <div class="footer text-muted">
+                <small>Количество просмотров: {{ object.views_count }}</small>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="{{ object.image|mymedia }}" alt="Картинка блога" width="100%">
+        </div>
+    </div>
+{% endblock %}
