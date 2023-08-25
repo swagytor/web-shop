@@ -22,7 +22,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 @admin.register(Blog)
 class BlogAdmin(admin.ModelAdmin):
-    exclude = ('created_at',)
+    exclude = ('created_at', 'slug')
     list_display = ('pk', 'title', 'views_count', 'created_at', 'is_published')
     list_filter = ('is_published',)
     search_fields = ('title',)

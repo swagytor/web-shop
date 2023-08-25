@@ -30,7 +30,7 @@ def contacts(request):
 
 class BlogCreateView(CreateView):
     model = Blog
-    fields = ('title', 'slug', 'body', 'image', 'is_published', 'views_count')
+    fields = ('title', 'body', 'image', 'is_published', 'views_count')
     success_url = reverse_lazy('catalog:blogs')
 
     def form_valid(self, form):
@@ -67,13 +67,13 @@ class BlogDetailView(DetailView):
 
 class BlogUpdateView(UpdateView):
     model = Blog
-    fields = ('title', 'slug', 'body', 'image', 'is_published', 'views_count')
+    fields = ('title', 'body', 'image', 'is_published', 'views_count')
     success_url = reverse_lazy('catalog:blogs')
 
     def get_success_url(self):
         return reverse('catalog:blog_details', args=[self.object.pk])
 
 
-class BlogDeleteView(DetailView):
+class BlogDeleteView(DeleteView):
     model = Blog
     success_url = reverse_lazy('catalog:blogs')

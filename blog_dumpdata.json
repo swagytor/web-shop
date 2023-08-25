@@ -1,0 +1,54 @@
+[
+{
+  "model": "catalog.blog",
+  "pk": 1,
+  "fields": {
+    "title": "Идущий к реке",
+    "slug": "idushiy-k-reke",
+    "body": "Я в своем познании настолько преисполнился, что я как будто бы уже\r\n\r\nсто триллионов миллиардов лет проживаю на триллионах и\r\n\r\nтриллионах таких же планет, как эта Земля, мне этот мир абсолютно\r\n\r\nпонятен, и я здесь ищу только одного - покоя, умиротворения и\r\n\r\nвот этой гармонии, от слияния с бесконечно вечным, от созерцания\r\n\r\nвеликого фрактального подобия и от вот этого замечательного всеединства\r\n\r\nсущества, бесконечно вечного, куда ни посмотри, хоть вглубь - бесконечно\r\n\r\nмалое, хоть ввысь - бесконечное большое, понимаешь? А ты мне опять со\r\n\r\nсвоим вот этим, иди суетись дальше, это твоё распределение, это\r\n\r\nтвой путь и твой горизонт познания и ощущения твоей природы, он\r\n\r\nнесоизмеримо мелок по сравнению с моим, понимаешь? Я как будто бы уже\r\n\r\nдавно глубокий старец, бессмертный, ну или там уже почти бессмертный,\r\n\r\nкоторый на этой планете от её самого зарождения, ещё когда только Солнце\r\n\r\nтолько-только сформировалось как звезда, и вот это газопылевое облако,\r\n\r\nвот, после взрыва, Солнца, когда оно вспыхнуло, как звезда, начало\r\n\r\nформировать вот эти коацерваты, планеты, понимаешь, я на этой Земле уже\r\n\r\nкак будто почти пять миллиардов лет живу и знаю её вдоль и поперёк\r\n\r\nэтот весь мир, а ты мне какие-то... мне не важно на твои тачки, на твои\r\n\r\nяхты, на твои квартиры, там, на твоё благо. Я был на этой\r\n\r\nпланете бесконечным множеством, и круче Цезаря, и круче Гитлера, и круче\r\n\r\nвсех великих, понимаешь, был, а где-то был конченым говном, ещё хуже,\r\n\r\nчем здесь. Я множество этих состояний чувствую. Где-то я был больше\r\n\r\nподобен растению, где-то я больше был подобен птице, там, червю, где-то\r\n\r\nбыл просто сгусток камня, это всё есть душа, понимаешь? Она имеет грани\r\n\r\nподобия совершенно многообразные, бесконечное множество. Но тебе этого\r\n\r\nне понять, поэтому ты езжай себе , мы в этом мире как бы живем\r\n\r\nразными ощущениями и разными стремлениями, соответственно, разное наше и\r\n\r\nместо, разное и наше распределение. Тебе я желаю все самые крутые тачки\r\n\r\nчтоб были у тебя, и все самые лучше самки, если мало идей, обращайся ко мне, я тебе на каждую твою идею предложу сотню триллионов, как всё делать. Ну а я всё, я иду как глубокий старец,узревший вечное, прикоснувшийся к Божественному, сам стал богоподобен и устремлен в это бесконечное, и который в умиротворении, покое, гармонии, благодати, в этом сокровенном блаженстве пребывает, вовлеченный во всё и во вся, понимаешь, вот и всё, в этом наша разница. Так что я иду любоваться мирозданием, а ты идёшь преисполняться в ГРАНЯХ каких-то, вот и вся разница, понимаешь, ты не зришь это вечное бесконечное, оно тебе не нужно. Ну зато ты, так сказать, более активен, как вот этот дятел долбящий, или муравей, который очень активен в своей стезе, поэтому давай, наши пути здесь, конечно, имеют грани подобия, потому что всё едино, но я-то тебя прекрасно понимаю, а вот ты меня - вряд ли, потому что я как бы тебя в себе содержу, всю твою природу, она составляет одну маленькую там песчиночку, от того что есть во мне, вот и всё, поэтому давай, ступай, езжай, а я пошел наслаждаться прекрасным осенним закатом на берегу теплой южной реки. Всё, ступай, и я пойду.",
+    "image": "blogs/idushiy-k-reke.png",
+    "created_at": "2023-08-23",
+    "is_published": true,
+    "views_count": 101
+  }
+},
+{
+  "model": "catalog.blog",
+  "pk": 2,
+  "fields": {
+    "title": "4 касты",
+    "slug": "4-kasti",
+    "body": "в тюрьме есть четыре основные касты.\r\nпервая - блатные, чёрные.\r\nвторая - мужики, серые.\r\nтретья - козлы, красны. четвертые - петухи, отверженные.",
+    "image": "",
+    "created_at": "2023-08-23",
+    "is_published": true,
+    "views_count": 235
+  }
+},
+{
+  "model": "catalog.blog",
+  "pk": 3,
+  "fields": {
+    "title": "Rubber room",
+    "slug": "rubber-room",
+    "body": "crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy crazy I was crazy once they locked me in a room a rubber room a rubber room with rats rats make me crazy",
+    "image": "",
+    "created_at": "2023-08-23",
+    "is_published": true,
+    "views_count": 670
+  }
+},
+{
+  "model": "catalog.blog",
+  "pk": 4,
+  "fields": {
+    "title": "$$$Free Money$$$",
+    "slug": "free-money",
+    "body": "Never gonna give you up\r\nNever gonna let you down\r\nNever gonna run around and desert you\r\nNever gonna make you cry\r\nNever gonna say goodbye\r\nNever gonna tell a lie and hurt you\r\nNever gonna give you up\r\nNever gonna let you down\r\nNever gonna run around and desert you\r\nNever gonna make you cry\r\nNever gonna say goodbye\r\nNever gonna tell a lie and hurt you",
+    "image": "blogs/free_money.jpg",
+    "created_at": "2023-08-23",
+    "is_published": true,
+    "views_count": 1346
+  }
+}
+]
