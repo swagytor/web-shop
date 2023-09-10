@@ -1,18 +1,31 @@
 {% extends 'catalog/base.html' %}
 {% block content %}
-<div class="col">
-<div class="row">
-    <div class="col-6">
-        <div class="card">
-            <div class="card-body">
-                <form method="post" enctype="multipart/form-data">
-                    {% csrf_token %}
-                    {{ form.as_p }}
-                    <button type="submit" class="btn btn-success">Добавить</button>
-                </form>
+    <div class="col">
+        <form method="post" class="row" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        {{ form.as_p }}
+                        <button type="submit" class="btn btn-success">Добавить</button>
+                    </div>
+                </div>
             </div>
-        </div>
+            {% if object %}
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-header">
+
+                        </div>
+                        <div class="card-body">
+                            {{ formset.management_form }}
+                            {% for form in formset.forms %}
+                                {{ form.as_p }}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        </form>
     </div>
-</div>
-</div>
 {% endblock %}
