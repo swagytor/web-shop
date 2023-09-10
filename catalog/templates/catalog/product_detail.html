@@ -8,8 +8,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-6">
                 <h1>{{ object.product_name|title }}</h1>
+            </div>
+            <div class="col-6 text-center">
+                <a class="btn text-primary" href="{% url 'catalog:product_update' object.pk %}">Изменить</a>
+                <a class="btn text-danger" href="{% url 'catalog:product_delete' object.pk %}">Удалить</a>
             </div>
         </div>
         <div class="row">
@@ -17,7 +21,8 @@
             </div>
             <div class="col-4">
                 <div class="card-img-top">
-                    <img src="{{ object.product_image|mymedia }}" alt="Фотография товара" width=" 125%" height=" 90%">
+                    <img src="{{ object.product_image|mymedia }}" alt="Фотография товара" width=" 125%"
+                         height=" 90%">
                 </div>
             </div>
             <div class="col-2">

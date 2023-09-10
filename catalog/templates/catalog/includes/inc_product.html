@@ -1,10 +1,10 @@
 <div class="col-3">
-    <div class="card mb-4 box-shadow">
+    <div class="card h-100 mb-4 box-shadow">
         <div class="card-header">
             <h4 class="my-0 font-weight-normal">{{ object.product_name }}</h4>
         </div>
         <div class="card-body">
-            <h1 class="card-title pricing-card-title">$ {{ object.product_price }}</h1>
+            <h1 class="card-title pricing-card-title">{{ object.product_price }} руб.</h1>
             <ul class="list-unstyled mt-3 mb-4 text-start m-3">
                 {% if object.product_description|length > 100 %}
                     {{ object.product_description|slice:":100" }}...
@@ -12,8 +12,22 @@
                     {{ object.product_description|slice:":100" }}
                 {% endif %}
             </ul>
+        </div>
+        <div class="card-footer">
             <a href="{% url 'catalog:product_details' object.pk %}" type="button"
                class="btn btn-lg btn-block btn-outline-primary">К товару</a>
+            <h6 class="text-muted">
+                Активные версии:
+                {% if object.version_set.all %}
+                    {% for version_item in object.version_set.all %}
+                        {% if version_item.is_current %}
+                            v{{ version_item.version_number }}
+                        {% endif %}
+                    {% endfor %}
+                {% else %}
+                    нет
+                {% endif %}
+            </h6>
         </div>
     </div>
 </div>
